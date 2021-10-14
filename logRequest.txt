@@ -24,11 +24,11 @@ Body:
     }
 }
 Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=4715835f55f0295af87927b75839634a
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=3c5dbacb7835571fe9e5204ddaa06bce
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
-				place_id=4715835f55f0295af87927b75839634a
+				place_id=3c5dbacb7835571fe9e5204ddaa06bce
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -50,11 +50,11 @@ Body:
     }
 }
 Request method:	POST
-Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123&place_id=4715835f55f0295af87927b75839634a
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123&place_id=3c5dbacb7835571fe9e5204ddaa06bce
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
-				place_id=4715835f55f0295af87927b75839634a
+				place_id=3c5dbacb7835571fe9e5204ddaa06bce
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -76,11 +76,11 @@ Body:
     }
 }
 Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=4715835f55f0295af87927b75839634a&place_id=7eaacabac474bd306bd06430e009708d
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=3c5dbacb7835571fe9e5204ddaa06bce&place_id=5af0e00fda137d164975addca38778f4
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
-				place_id=[4715835f55f0295af87927b75839634a, 7eaacabac474bd306bd06430e009708d]
+				place_id=[3c5dbacb7835571fe9e5204ddaa06bce, 5af0e00fda137d164975addca38778f4]
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -101,12 +101,12 @@ Body:
         "lng": 50.25
     }
 }
-Request method:	DELETE
-Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123&place_id=4715835f55f0295af87927b75839634a&place_id=7eaacabac474bd306bd06430e009708d
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123&place_id=3c5dbacb7835571fe9e5204ddaa06bce&place_id=5af0e00fda137d164975addca38778f4
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
-				place_id=[4715835f55f0295af87927b75839634a, 7eaacabac474bd306bd06430e009708d]
+				place_id=[3c5dbacb7835571fe9e5204ddaa06bce, 5af0e00fda137d164975addca38778f4]
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -115,5 +115,57 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "place_id": "7eaacabac474bd306bd06430e009708d"
+    "accuracy": "50",
+    "name": "BBB",
+    "phone_number": "01234678",
+    "address": "BBB adress",
+    "types": "a",
+    "website": null,
+    "language": "BB language",
+    "location": {
+        "lat": 30.256,
+        "lng": 50.25
+    }
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=3c5dbacb7835571fe9e5204ddaa06bce&place_id=5af0e00fda137d164975addca38778f4&place_id=487dd8d5ad16b184c99e703dc58b5a0c
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=[3c5dbacb7835571fe9e5204ddaa06bce, 5af0e00fda137d164975addca38778f4, 487dd8d5ad16b184c99e703dc58b5a0c]
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": "50",
+    "name": "BBB",
+    "phone_number": "01234678",
+    "address": "BBB adress",
+    "types": "a",
+    "website": null,
+    "language": "BB language",
+    "location": {
+        "lat": 30.256,
+        "lng": 50.25
+    }
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123&place_id=3c5dbacb7835571fe9e5204ddaa06bce&place_id=5af0e00fda137d164975addca38778f4&place_id=487dd8d5ad16b184c99e703dc58b5a0c
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=[3c5dbacb7835571fe9e5204ddaa06bce, 5af0e00fda137d164975addca38778f4, 487dd8d5ad16b184c99e703dc58b5a0c]
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "487dd8d5ad16b184c99e703dc58b5a0c"
 }

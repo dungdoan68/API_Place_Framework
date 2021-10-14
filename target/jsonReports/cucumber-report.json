@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-10-14T05:57:38.537Z",
+        "start_timestamp": "2021-10-14T06:24:14.923Z",
         "before": [
           {
             "result": {
-              "duration": 8231000000,
+              "duration": 7363589400,
               "status": "passed"
             },
             "match": {
@@ -24,7 +24,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6000000,
+              "duration": 4993900,
               "status": "passed"
             },
             "line": 5,
@@ -50,7 +50,7 @@
           },
           {
             "result": {
-              "duration": 564000000,
+              "duration": 597391300,
               "status": "passed"
             },
             "line": 6,
@@ -89,7 +89,7 @@
           },
           {
             "result": {
-              "duration": 13000000,
+              "duration": 14990400,
               "status": "passed"
             },
             "line": 8,
@@ -101,7 +101,7 @@
           },
           {
             "result": {
-              "duration": 2097000000,
+              "duration": 2001125800,
               "status": "passed"
             },
             "line": 9,
@@ -129,7 +129,132 @@
         ]
       },
       {
-        "start_timestamp": "2021-10-14T05:57:49.530Z",
+        "start_timestamp": "2021-10-14T06:24:24.999Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDifinitions.Hooks.beforScenario()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verify if place is being succesfully added by  using AddPlaceAPI",
+        "description": "",
+        "id": "validating-place-api-s-;verify-if-place-is-being-succesfully-added-by--using-addplaceapi;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4996300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "add place form payload using \"BBB\" \"BBB adress\" \"BB language\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BBB\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"BBB adress\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"BB language\"",
+                  "offset": 48
+                }
+              ],
+              "location": "stepDifinitions.Steps.add_place_form_payload_using(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 920286000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user call \"addPlace\" with \"POST\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"addPlace\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDifinitions.Steps.user_call_with_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the API call is success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDifinitions.Steps.the_api_call_is_success_with_status_code(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12993600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Status in body is OK",
+            "match": {
+              "location": "stepDifinitions.Steps.status_in_body_is_ok()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2509520700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify Place_Id map with \"BBB\" using \"getPlace\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BBB\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"getPlace\"",
+                  "offset": 37
+                }
+              ],
+              "location": "stepDifinitions.Steps.verify_Place_Id_map_with_using(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddPlace"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T06:24:28.453Z",
         "before": [
           {
             "result": {
@@ -149,7 +274,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4000000,
+              "duration": 1999500,
               "status": "passed"
             },
             "line": 18,
@@ -161,7 +286,7 @@
           },
           {
             "result": {
-              "duration": 2368000000,
+              "duration": 2425341400,
               "status": "passed"
             },
             "line": 19,
@@ -183,7 +308,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 20,
@@ -201,7 +325,7 @@
           },
           {
             "result": {
-              "duration": 12000000,
+              "duration": 13989300,
               "status": "passed"
             },
             "line": 21,
