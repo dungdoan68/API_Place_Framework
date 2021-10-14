@@ -1,0 +1,119 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": "50",
+    "name": "AHS",
+    "phone_number": "01234678",
+    "address": "AHS Address",
+    "types": "a",
+    "website": null,
+    "language": "AHS Language",
+    "location": {
+        "lat": 30.256,
+        "lng": 50.25
+    }
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=4715835f55f0295af87927b75839634a
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=4715835f55f0295af87927b75839634a
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": "50",
+    "name": "AHS",
+    "phone_number": "01234678",
+    "address": "AHS Address",
+    "types": "a",
+    "website": null,
+    "language": "AHS Language",
+    "location": {
+        "lat": 30.256,
+        "lng": 50.25
+    }
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123&place_id=4715835f55f0295af87927b75839634a
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=4715835f55f0295af87927b75839634a
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": "50",
+    "name": "AAB",
+    "phone_number": "01234678",
+    "address": "AAA adress",
+    "types": "a",
+    "website": null,
+    "language": "AA language",
+    "location": {
+        "lat": 30.256,
+        "lng": 50.25
+    }
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=4715835f55f0295af87927b75839634a&place_id=7eaacabac474bd306bd06430e009708d
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=[4715835f55f0295af87927b75839634a, 7eaacabac474bd306bd06430e009708d]
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": "50",
+    "name": "AAB",
+    "phone_number": "01234678",
+    "address": "AAA adress",
+    "types": "a",
+    "website": null,
+    "language": "AA language",
+    "location": {
+        "lat": 30.256,
+        "lng": 50.25
+    }
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123&place_id=4715835f55f0295af87927b75839634a&place_id=7eaacabac474bd306bd06430e009708d
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=[4715835f55f0295af87927b75839634a, 7eaacabac474bd306bd06430e009708d]
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "7eaacabac474bd306bd06430e009708d"
+}
